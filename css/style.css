@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    transition:all .5s ease;
+    -webkit-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+}
+.fix{
+    overflow:hidden;
+}
+.aligncenter{
+    display:block;
+    margin:0 auto;
+}
+.floatleft{
+    float:left
+}
+.floatright{
+    float:right
+}
+.container_full{
+    width:100%;
+    height:auto;
+}
+.container{
+    display:block;
+    width:85%;
+    margin:0 auto;
+}
+.playfair_r{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+.ubuntu_l{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+h2{
+    color: #626262;
+    font-size: 30px;
+    padding: 30px 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+/* Default css ends */
+
+/* Header css start */
+.header{
+    padding: 62px 0;
+}
+.logo{
+    width: 11%;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 88%;
+}
+.menu ul{
+    display: inline-block;
+    float:right;
+}
+.menu ul li{
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+    padding:0 50px;
+    border-bottom: 1px solid transparent;
+}
+.menu ul li:last-child{
+    padding-right: 0px;
+}
+.menu ul li a{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: medium;
+    text-transform: uppercase;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid black;
+}
+/* header css ends */
+
+/* Slider starts */
+.slider img{
+    width: 100%;
+}
+/* Slider ends */
+
+/* Section Starts */
+.details{
+    width: 70%;
+    margin: 0 auto;
+    padding: 100px 0;
+    min-height: 100px;
+}
+.details h3{
+    color: #B4AD9E;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.details h2{
+    color: #626262;
+    font-size: 30px;
+    padding: 30px 0;
+}
+.details p{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #626262;
+    font-size: 14px;
+    line-height: 28px;
+    word-spacing: 3px;
+}
+.details .comment{
+    padding-top: 50px;
+}
+/* Paragraph Ends */
+
+/* Section Starts */
+.section{
+    padding: 0;
+}
+.single{
+    width: 46%;
+    display: inline-block;
+    float: left;
+    padding: 4%;
+}
+.single:nth-child(odd){
+    padding-left: 0;
+}
+.single:nth-child(even){
+    padding-right: 0;
+}
+.single img{
+    width: 100%;
+}
+.single h3{
+    padding-top: 35px;
+}
+.single h2{
+
+}
+.para{
+    display: inline-block;
+    max-height: 90px;
+    overflow: hidden;
+}
+/* Section Ends */
+
+/* Contact Form Starts */
+.contact_bg{
+    background-color: #F0F0F0;
+    margin: 80px 0;
+}
+.contact{
+    width: 30%;
+    margin: 0 auto;
+}
+.contact h2{
+    padding-top: 0;
+    padding-bottom: 85px;
+}
+form{
+    border-bottom: 1px solid black;
+}
+input[type=email]{
+    display: inline-block;
+    float: left;
+    width: 89%;
+    padding: 5px;
+    border: none;
+    background-color: #F0F0F0;
+}
+input[type=email]::placeholder{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+.contact button{
+    display: inline-block;
+    float: left;
+    width: 8%;
+    border: none;
+}
+/* Contact Form Ends */
+
+/* Section 2 Starts */
+.sec_2_b{
+    display: inline-block;
+    width: 100%;
+    margin: 100px 0px;
+}
+.sec_2_btn{
+    display: inline-block;
+    padding: 13px 35px;
+    margin-left: 41%;
+    background: none;
+    cursor: pointer;
+    border: 2px solid #626262;
+}
+.sec_2_btn a{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #6C6C6C;
+}
+/* Section 2 Ends */
+
+/* Footer Starts */
+.footer_bg{
+    background-color: #F0F0F0;
+    margin-top: 35px;
+}
+.footer{
+    width: 70%;
+    margin: 0 auto;
+    height: 100px;
+}
+.left_f{
+    display: inline-block;
+    width: 35%;
+    padding-top: 40px;
+}
+.left_f h4{
+    display: inline-block;
+    float: left;
+    padding-right: 5%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.right_f{
+    display: inline-block;
+    width: 15%;
+    padding-top: 40px;
+}
+.right_f ul{
+    list-style-type: none;
+}
+.right_f ul li{
+    display: inline-block;
+    float: left;
+    padding-right: 13%;
+}
+.right_f ul li:last-child{
+    padding-right: 0;
+}
+.right_f ul li img{
+    width: 100%;
+    overflow: hidden;
+}
+/* Footer Ends */
